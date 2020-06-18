@@ -28,7 +28,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/reset.scss",
+              "src/styles.scss",
+              "./node_modules/ol/ol.css"
             ],
             "scripts": []
           },
@@ -123,6 +125,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "gis-frontend"
+    }
+  },
+  "defaultProject": "gis-frontend",
+  "cli": {
+    "analytics": "fe92fcbf-b225-4f58-97e6-ec9f94443374"
+  }
 }

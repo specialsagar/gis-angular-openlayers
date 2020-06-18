@@ -1,6 +1,8 @@
 {
   "name": "gis-frontend",
   "version": "0.0.0",
+  "author": "Sagar Shah",
+  "description": "A sample POC on gis",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -19,6 +21,7 @@
     "@angular/platform-browser": "~9.1.9",
     "@angular/platform-browser-dynamic": "~9.1.9",
     "@angular/router": "~9.1.9",
+    "ol": "^6.3.1",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
